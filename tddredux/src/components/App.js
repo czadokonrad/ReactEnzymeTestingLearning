@@ -11,7 +11,10 @@ class App extends Component {
 
     render() {
         return (
-            <Wallet />
+            <div>
+                <h2>Loot Check</h2>
+                <Wallet />
+            </div>
         )
     }
 }
